@@ -51,4 +51,5 @@ FRONTENT_URL =
 
 ```bash
 npm run dev
+npm run build
 ```
