@@ -6,6 +6,7 @@ const createDocumentService =async(payload : IDocument)=>{
     const document = await Document.create(payload);
     return document;
 }
+
 const searchDocumentService =async(query : Record<string,string>)=>{
     const search = query.search || "";
             
