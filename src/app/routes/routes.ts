@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { documentRouter } from "../document/document.router";
+import { documentRouter } from "../../modules/document/document.router";
 
 export const router  = Router();
 
