@@ -1,8 +1,9 @@
 import { NextFunction, Request, Response } from "express";
 import httpStatusCode from 'http-status-codes';
-import { asyncHandler } from "../../app/utils/asyncHandler";
-import { sendResponse } from "../../app/utils/sendResponse";
+import { asyncHandler } from "../../utils/asyncHandler";
+import { sendResponse } from "../../utils/sendResponse";
 import { documentServices } from "./document.services";
+ 
 
 
 

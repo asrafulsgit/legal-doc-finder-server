@@ -14,8 +14,9 @@ const searchDocumentService =async(query : Record<string,string>)=>{
             const searchQuery = {
                 $or : searchableFields.map(field =>({ [field] : {$regex : search,$options : "i"}}))
             }
-    
+     
             const documents = await Document.find(searchQuery);
+             
             return documents;
 }
 
