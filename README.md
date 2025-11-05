@@ -26,6 +26,14 @@ This repository contains the **backend API** built using **FastAPI** for the Leg
 - Express
 - MongoDB(Mongoose)
 
+## 🔗 API Endpoints
+
+| Method | Endpoint             | Description                  |
+|--------|----------------------|------------------------------|
+| POST   | /api/v1/documents    | Post legal document          |
+| GET    | /api/v1/documnets?search=     | GET legal documents         |
+
+
 ---
 
 ## 🛠️ Getting Started
